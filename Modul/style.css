@@ -1,16 +1,21 @@
 @font-face {
     font-family: 'normal-font';
-    src: url('fonts/Arvo-Italic.ttf') format('truetype');
+    src: url('fonts/Arvo-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'headline-font';
-    src: url('fonts/Raleway-Regular.ttf') format('truetype');
+    src: url('fonts/Raleway-Medium.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'headline-light-font';
-    src: url('fonts/Raleway-ExtraLight.ttf') format('truetype');
+    src: url('fonts/Raleway-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'headline-black-font';
+    src: url('fonts/Raleway-Black.ttf') format('truetype');
 }
 
 @font-face {
@@ -21,7 +26,7 @@
 body, html {
     margin: 0;
     padding: 0;
-    font-family: normal-font, sans-serif;
+    font-family: normal-font, serif;
 }
 
 /* Header */
@@ -141,13 +146,14 @@ h1 {
     background-color: #188536;
     color: white;
     font-size: 1.5em;
-    font-family: headline-light-font, serif;
+    font-family: headline-light-font, sans-serif;
 }
 
 h2 {
     color: #8bc053;
     margin: 10px 0;
     font-size: 1.5em;
+    font-family: headline-black-fonts, sans-serif;
 }
 
 .clear {
