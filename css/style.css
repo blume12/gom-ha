@@ -306,17 +306,22 @@ input[type=submit]:hover {
         text-align: left;
     }
 
-    h2 {
+    h2, h3{
         margin-top: 0;
     }
 
     main div.news img {
         width: 300px;
+        float: left;
     }
 
     input:not([type=submit]) {
         width: 45%;
     }
+    div.news div.parallel {
+        margin-top: 30px;
+    }
+
 }
 
 @media (min-width: 961px) {
