@@ -41,11 +41,12 @@ header img.headerImage {
     height: 230px;
     width: 100%;
 }
+
 .logo_container {
 
     position: absolute;
-    top:10px;
-    margin: 0 40%;
+    top: 10px;
+    margin: 0 25%;
     text-align: center;
     width: 200px;
 }
@@ -71,7 +72,7 @@ header p {
     display: block;
     height: 80px;
     text-align: center;
-    top: 110px;
+    top: 100px;
     font-size: 1.5em;
     font-family: headline-font, sans-serif;
     margin: 0;
@@ -95,7 +96,7 @@ nav ul {
     padding: 0;
 }
 
-nav a, footer a {
+nav a, nav span, footer a {
     color: white;
     text-decoration: none;
 }
@@ -115,7 +116,8 @@ nav .mobile {
     background-color: #a0a0a0;
     text-align: right;
 }
-nav:hover  ul li{
+
+nav:hover ul li {
     display: block;
 }
 
@@ -142,7 +144,7 @@ footer {
 
 footer span {
     float: right;
-    margin-right: 30px;
+    margin: 10px 30px 0 0;
     font-size: 11px;
 }
 
@@ -172,6 +174,10 @@ h2 {
     clear: both;
 }
 
+main {
+    margin-bottom: 80px;
+}
+
 main p {
     margin: 10px 0;
 }
@@ -181,7 +187,7 @@ main a {
 }
 
 div.news {
-    margin: 10px 0 50px 0;
+    margin: 20px 0 10px 0;
     padding-top: 20px;
     border-top: 1px solid #000;
 }
@@ -190,5 +196,51 @@ div.news img {
     float: left;
     margin-right: 20px;
     margin-bottom: 20px;
-    width:100%;
+    width: 100%;
+}
+
+@media (min-width: 320px) {
+    /* smartphones, iPhone, portrait 480x320 phones */
+    footer {
+        background-color:  red;
+    }
+    header .logo_container {
+
+        margin: 0 33%;
+    }
+}
+
+@media (min-width: 481px) {
+    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+    footer {
+        background-color:  orange;
+    }
+
+    header .logo_container {
+
+        margin: 0 40%;
+    }
+}
+
+@media (min-width: 641px) {
+    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+    footer {
+        background-color:  blue;
+    }
+}
+
+@media (min-width: 961px) {
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+    footer {
+        background-color:  blueviolet;
+
+    }
+}
+
+@media (min-width: 1025px) {
+    /* big landscape tablets, laptops, and desktops */
+}
+
+@media (min-width: 1281px) {
+    /* hi-res laptops and desktops */
 }
