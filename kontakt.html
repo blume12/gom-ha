@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gärtner Stefan Stern</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+</head>
+<body>
+<header>
+    <img class="headerImage" src="images/header-image.jpg" alt="Hintergrundbild"/>
+    <div id="overlay"></div>
+    <div class="logo_container">
+        <img class="logo" src="images/Logo.png" alt="Logo Gärtner Stefan Stern"/>
+        <p>
+            Gärtner <br/><span class="special">Stefan Stern</span>
+        </p>
+    </div>
+</header>
+<nav>
+
+    <span class="mobile">Menü</span>
+    <ul>
+        <li><a href="index.html">Aktuelles</a></li>
+        <li><a href="wochenmarkt.html">Wochenmarkt</a></li>
+        <li><a href="wochenmarkt.html">Baumschnitt</a></li>
+        <li class="active"><a href="kontakt.html">Kontakt</a></li>
+    </ul>
+</nav>
+<div class="clear"></div>
+
+<h1>Kontakt</h1>
+
+<main>
+    <p>
+        Haben Sie Fragen? Dann schicken Sie mir diese bitte:
+    </p>
+    <form method="post" action="http://www.inf.fh-flensburg.de/echo/">
+        <label for="firstname">Vorname:</label>
+        <input name="Vorname" id="firstname"/>
+
+        <label for="lastname">Nachname:</label>
+        <input name="Nachname" id="lastname"/>
+
+        <label for="question">Frage/Anmerkung*:</label>
+        <textarea name="Frage/Anmerkung" id="question" rows="10" cols="50"></textarea>
+        <input value="Senden" type="submit" />
+    </form>
+    <small>* Pflichtfelder</small>
+</main>
+<footer>
+    <span><a href="Dokumentation/doku.html">Dokumentation</a></span>
+    <span><a href="Dokumentation/timeline.html">Timeline</a></span>
+    <span><a href="Modul/modul.html">Modul</a></span>
+    <span><a href="impressum.html">Impressum</a></span>
+</footer>
+
+</body>
+</html>
