@@ -224,8 +224,7 @@ input, textarea {
     border:none;
     width: 95%;
     font-family: normal-font, serif;
-    color: #fff;
-    border: none;
+    border: 0;
 }
 
 input[type=submit] {
