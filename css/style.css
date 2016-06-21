@@ -140,7 +140,7 @@ nav ul li:hover, nav ul li.active, nav .mobile:hover {
 /* Main */
 
 main {
-    font-size: 0.9em;
+    font-size: 1em;
     margin: 10px;
 }
 
@@ -169,16 +169,20 @@ h1 {
     padding: 10px;
     background-color: #188536;
     color: white;
-    font-size: 1.5em;
-    font-family: headline-light-font, sans-serif;
+    font-size: 1.6em;
+    font-family: headline-extra-font, serif;
 }
 
 h2 {
-    color: #8bc053;
+    color: #BD3C4F;
     margin: 10px 0;
     text-align: left;
     font-size: 1.5em;
     font-family: headline-black-fonts, sans-serif;
+}
+
+h3 {
+    color: #e44100;
 }
 
 .clear {
@@ -203,6 +207,11 @@ div.news {
     border-top: 1px solid #000;
 }
 
+div.news span {
+    color: #727373;
+    font-style: italic;
+}
+
 div.news img {
     float: left;
     margin-right: 20px;
@@ -225,7 +234,7 @@ input, textarea {
     width: 95%;
     font-family: normal-font, serif;
     color: #fff;
-    border: none;
+    border: 0;
 }
 
 input[type=submit] {
@@ -282,6 +291,12 @@ input[type=submit]:hover {
         width: 120px;
         margin-right: -4px;
         border-bottom: 0;
+    }
+
+    nav a {
+        display: inline-block;
+        width: 120px;
+        margin-right: -4px;
     }
 
     nav ul li:last-child {
