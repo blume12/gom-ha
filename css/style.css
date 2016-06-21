@@ -39,13 +39,12 @@ header {
     width: 100%;
 }
 
-
 header div#headerSlider {
     width: 100%;
     margin: 0;
     padding: 0;
     height: 230px;
-    overflow:hidden;
+    overflow: hidden;
 }
 
 header img.headerImage {
@@ -140,7 +139,7 @@ nav ul li:hover, nav ul li.active, nav .mobile:hover {
 /* Main */
 
 main {
-    font-size: 0.9em;
+    font-size: 1em;
     margin: 10px;
 }
 
@@ -169,16 +168,32 @@ h1 {
     padding: 10px;
     background-color: #188536;
     color: white;
-    font-size: 1.5em;
-    font-family: headline-light-font, sans-serif;
+    font-size: 1.6em;
+    font-family: headline-extra-font, serif;
 }
 
 h2 {
-    color: #8bc053;
+    color: #BD3C4F;
     margin: 10px 0;
     text-align: left;
     font-size: 1.5em;
     font-family: headline-black-fonts, sans-serif;
+}
+
+h3 {
+    color: #e44100;
+}
+
+.pink {
+    background-color: #ffcfd6;
+}
+
+.orange {
+    background-color: #ffcea1;
+}
+
+.blue {
+    background-color: #c8c9f5;
 }
 
 .clear {
@@ -190,7 +205,6 @@ main {
 }
 
 main p {
-    margin: 10px 0;
 }
 
 main a {
@@ -200,28 +214,52 @@ main a {
 div.news {
     margin: 20px 0 10px 0;
     padding-top: 20px;
-    border-top: 1px solid #000;
+    border-top: 1px solid #a0a0a0;
+}
+
+div.news span {
+    color: #727373;
+    font-style: italic;
 }
 
 div.news img {
-    float: left;
     margin-right: 20px;
     margin-bottom: 20px;
+    margin-top: 10px;
     width: 100%;
 }
+
+div.colorBox {
+    padding: 10px;
+    padding-bottom: 20px;
+}
+div.colorBox a {
+    color: #fff;
+    background-color: #188536;
+    padding: 10px;
+    margin: 10px;
+}
+
+div.colorBox a:hover {
+    background-color: #1a6b3b;
+}
+
+
 /* Kontaktformular */
 form {
 
     background-color: #8bc053;
     padding: 10px;
 }
+
 label {
     display: block;
 }
+
 input, textarea {
     margin-bottom: 15px;
     padding: 5px;
-    border:none;
+    border: none;
     width: 95%;
     font-family: normal-font, serif;
     border: 0;
@@ -256,7 +294,7 @@ input[type=submit]:hover {
         margin: 0 40%;
     }
 
-    footer  {
+    footer {
         text-align: right;
     }
 
@@ -281,6 +319,12 @@ input[type=submit]:hover {
         width: 120px;
         margin-right: -4px;
         border-bottom: 0;
+    }
+
+    nav a {
+        display: inline-block;
+        width: 120px;
+        margin-right: -4px;
     }
 
     nav ul li:last-child {
@@ -309,9 +353,29 @@ input[type=submit]:hover {
         margin-top: 0;
     }
 
-    main div.news img {
-        width: 300px;
+    div.news {
+        width: 29%;
         float: left;
+        margin: 10px;
+        position: relative;
+        height: 450px;
+    }
+
+    div.colorBox {
+
+        position: absolute;
+        bottom: 30px;
+    }
+
+    div.colorBox a {
+
+        position: absolute;
+        bottom: -25px;
+    }
+
+    div.news h2 {
+        height: 60px;
+        vertical-align: text-bottom;
     }
 
     input:not([type=submit]) {
@@ -340,6 +404,7 @@ input[type=submit]:hover {
     h1 {
         padding-left: 20%;
     }
+
     header img.headerImage {
         height: auto;
         width: 100%;
