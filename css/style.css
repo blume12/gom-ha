@@ -134,6 +134,7 @@ nav:hover ul li {
 
 nav ul li:hover, nav ul li.active, nav .mobile:hover {
     background-color: #727373;
+    cursor: pointer;
 }
 
 /* Main */
@@ -244,6 +245,14 @@ div.colorBox a:hover {
     background-color: #1a6b3b;
 }
 
+div.fullSide {
+    margin: 20px 0 10px 0;
+    padding-top: 20px;
+    border-top: 1px solid #a0a0a0;
+}
+div.fullSide img{
+    width: 100%;
+}
 
 /* Kontaktformular */
 form {
@@ -393,6 +402,11 @@ input[type=submit]:hover {
         margin-top: 30px;
     }
 
+    div.fullSide img{
+        width: 50%;
+        float: left;
+        margin: 0 20px 20px 0;
+    }
 }
 
 @media (min-width: 961px) {
@@ -418,6 +432,10 @@ input[type=submit]:hover {
         width: 100%;
         display: block;
         margin: 0 auto;
+    }
+
+    div.fullSide img {
+        width: 40%;
     }
 }
 
