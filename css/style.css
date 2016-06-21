@@ -247,8 +247,6 @@ div.colorBox a:hover {
 
 /* Kontaktformular */
 form {
-
-    background-color: #8bc053;
     padding: 10px;
 }
 
@@ -258,11 +256,12 @@ label {
 
 input, textarea {
     margin-bottom: 15px;
-    padding: 5px;
-    border: none;
+    border: 3px solid #8bc053;
+
+    background-color: #eefad1;
+    padding: 8px;
     width: 95%;
     font-family: normal-font, serif;
-    border: 0;
 }
 
 input[type=submit] {
@@ -270,8 +269,8 @@ input[type=submit] {
     color: #fff;
     background-color: #188536;
     font-size: 1.1em;
-    margin: 0 25%;
     width: 120px;
+    border:0;
 }
 
 input[type=submit]:hover {
@@ -351,6 +350,15 @@ input[type=submit]:hover {
 
     h2, h3{
         margin-top: 0;
+    }
+
+    div.leftSide {
+        float: left;
+        width: 35%;
+    }
+    div.rightSide {
+        float: left;
+        width: 60%;
     }
 
     div.news {
