@@ -176,7 +176,7 @@ h1 {
 }
 
 h2 {
-    color: #BD3C4F;
+    color: #c21250;
     margin: 10px 0;
     text-align: left;
     font-size: 1.5em;
@@ -184,23 +184,23 @@ h2 {
 }
 
 h3 {
-    color: #e44100;
+    color: #db5e23;
 }
 
 .pink {
-    background-color: #ffcfd6;
+    background-color: #c21250;
 }
 
 .orange {
-    background-color: #ffcea1;
+    background-color: #db5e23;
 }
 
 .blue {
-    background-color: #c8c9f5;
+    background-color: #7d4f97;
 }
 
 .red {
-    background-color: #8F1B32;
+    background-color: #c12021;
 }
 
 .clear {
@@ -208,7 +208,7 @@ h3 {
 }
 
 main {
-    margin-bottom: 80px;
+    margin-bottom: 90px;
 }
 
 main p {
@@ -219,9 +219,10 @@ main a {
 }
 
 div.news {
-    margin: 20px 0 10px 0;
-    padding-top: 20px;
+    margin: 40px 10px 10px 10px;
     border-top: 1px solid #a0a0a0;
+    color: #fff;
+    position: relative;
 }
 
 div.news span {
@@ -231,7 +232,7 @@ div.news span {
 
 div.news img {
     margin-right: 20px;
-    margin-bottom: 20px;
+    margin-bottom: -20px;
     margin-top: 10px;
     width: 100%;
 }
@@ -245,6 +246,8 @@ div.colorBox a {
     background-color: #188536;
     padding: 10px;
     margin: 10px;
+    position: absolute;
+    bottom: -30px;
 }
 
 div.colorBox a:hover {
@@ -441,28 +444,13 @@ input[type=submit]:hover {
     }
 
     div.news {
-        width: 29%;
+        width: 45%;
         float: left;
         margin: 10px;
         position: relative;
-        height: 450px;
-    }
-
-    div.colorBox {
-
-        position: absolute;
-        bottom: 30px;
-    }
-
-    div.colorBox a {
-
-        position: absolute;
-        bottom: -25px;
     }
 
     div.news h2 {
-        height: 60px;
-        vertical-align: text-bottom;
     }
 
     input:not([type=submit]) {
@@ -531,6 +519,10 @@ input[type=submit]:hover {
 
     div.fourInRow {
         height: 150px;
+    }
+
+    div.news {
+        width: 29%;
     }
 
 }
