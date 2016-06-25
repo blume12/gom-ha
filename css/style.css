@@ -229,10 +229,6 @@ main {
     margin-bottom: 90px;
 }
 
-main p {
-    max-width: 650px;
-}
-
 main a {
     color: #8bc053;
 }
@@ -592,6 +588,15 @@ input[type=submit]:hover {
         width: 29%;
     }
 
+    main.documentation {
+        width: 60%;
+        margin: 0 20%;
+    }
+
+    h1.documentation {
+        padding-left: 20%;
+    }
+
 }
 
 @media (min-width: 1025px) {
@@ -634,6 +639,15 @@ input[type=submit]:hover {
     main {
         width: 80%;
         margin: 0 10% 80px;
+    }
+
+    main.documentation {
+        width: 50%;
+        margin: 0 25%;
+    }
+
+    h1.documentation {
+        padding-left: 25%;
     }
 
     h1 {
