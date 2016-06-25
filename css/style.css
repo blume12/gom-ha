@@ -78,7 +78,7 @@ header #overlay {
     width: 100%;
 }
 
-header p {
+header p a{
     position: absolute;
     display: block;
     height: 80px;
@@ -88,6 +88,8 @@ header p {
     font-family: headline-font, sans-serif;
     margin: 0;
     padding: 0;
+    color: #fff;
+    text-decoration: none;
 }
 
 header span.special {
