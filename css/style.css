@@ -249,6 +249,14 @@ div.colorBox a:hover {
     background-color: #1a6b3b;
 }
 
+div.leftSide, div.rightSide {
+    padding:  0 15px;
+}
+
+main img {
+    width: 100%;
+}
+
 /* Wochenmarkt*/
 
 .card{
@@ -378,14 +386,15 @@ input[type=submit]:hover {
     nav ul li {
         display: inline-block;
         border-left: 1px solid #000;
-        width: 120px;
+        width: 100px;
         margin-right: -4px;
         border-bottom: 0;
+        font-size: 0.9em;
     }
 
     nav a {
         display: inline-block;
-        width: 120px;
+        width: 100px;
         margin-right: -4px;
     }
 
@@ -412,17 +421,17 @@ input[type=submit]:hover {
     }
 
     h2, h3{
-        margin-top: 0;
+        margin-top: 10px;
     }
 
     div.leftSide {
         float: left;
-        width: 33%;
+        padding: 0;
+        width: 100%;
         margin-right: 30px;
     }
     div.rightSide {
-        float: left;
-        width: 60%;
+        padding: 0;
     }
 
     div.news {
@@ -484,6 +493,29 @@ input[type=submit]:hover {
      footer {
         background: gray;
     }
+    div.leftSide {
+        width: 33%;
+        float: left;
+    }
+
+    div.rightSide{
+        width: 60%;
+        float: left;
+    }
+
+    nav ul li {
+        width: 120px;
+        font-size: 1em;
+    }
+
+    nav a {
+        width: 120px;
+    }
+    main img {
+        width: auto;
+        height: 100%;
+    }
+
 }
 
 @media (min-width: 1025px) {
@@ -531,4 +563,15 @@ input[type=submit]:hover {
     input:not([type=submit]) {
         width: 35%;
     }
+
+    div.leftSide {
+        width: 27%;
+        float: left;
+    }
+
+    div.rightSide{
+        width: 70%;
+        float: left;
+    }
+
 }
