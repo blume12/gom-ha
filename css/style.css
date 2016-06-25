@@ -139,7 +139,20 @@ nav ul li:hover, nav ul li.active, nav .mobile:hover {
     cursor: pointer;
 }
 
-/* Main */
+nav .hasSecondMenu {
+    padding: 10px 0 0;
+}
+
+nav .secondMenu {
+    border-top: 1px solid #000;
+    border-bottom: 0;
+    margin-top: 10px;
+}
+nav .secondMenu li {
+    background-color: #848484;
+}
+
+    /* Main */
 
 main {
     font-size: 1em;
@@ -399,6 +412,7 @@ input[type=submit]:hover {
         margin-right: -4px;
         border-bottom: 0;
         font-size: 0.9em;
+        position: relative;
     }
 
     nav a {
@@ -417,6 +431,28 @@ input[type=submit]:hover {
 
     nav:hover ul li {
         display: inline-block;
+    }
+
+    nav .hasSecondMenu {
+        padding: 10px;
+    }
+
+    nav .secondMenu {
+        display: none;
+        position: absolute;
+        text-align: left;
+        left: 0;
+        top: 27px;
+        z-index: 5;
+    }
+
+    nav .secondMenu li, nav .secondMenu li:last-child {
+        border: 0;
+        border-bottom: 1px solid #000;
+    }
+
+    nav ul li:hover .secondMenu {
+        display: block;
     }
 
     main {
