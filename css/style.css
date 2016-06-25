@@ -253,7 +253,7 @@ div.leftSide, div.rightSide {
     padding:  0 15px;
 }
 
-main img {
+div.leftSide img , div.rightSide img {
     width: 100%;
 }
 
@@ -511,7 +511,7 @@ input[type=submit]:hover {
     nav a {
         width: 120px;
     }
-    main img {
+    div.leftSide img , div.rightSide img{
         width: auto;
         height: 100%;
     }
