@@ -225,6 +225,7 @@ main {
 }
 
 main p {
+    max-width: 650px;
 }
 
 main a {
@@ -509,7 +510,7 @@ input[type=submit]:hover {
     }
 
     div.fullSide img{
-        width: 50%;
+        width: 70%;
         float: left;
         margin: 0 20px 20px 0;
     }
@@ -519,6 +520,9 @@ input[type=submit]:hover {
         margin: 0;
         margin-left: 10px;
         height: 180px;
+    }
+    div.fullSideTextBox{
+        float: left;
     }
 }
 
@@ -587,6 +591,10 @@ input[type=submit]:hover {
 
     div.fullSide img {
         width: 40%;
+    }
+    div.fullSideTextBox{
+        width: 55%;
+        float: left;
     }
 }
 
