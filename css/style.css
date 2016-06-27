@@ -406,10 +406,6 @@ input[type=submit]:hover {
 
         margin: 0 33%;
     }
-    
-    footer {
-        background: yellow;
-    }
 }
 
 @media (min-width: 481px) {
@@ -420,7 +416,6 @@ input[type=submit]:hover {
 
     footer {
         text-align: right;
-        background: red;
     }
 
 
@@ -435,11 +430,6 @@ input[type=submit]:hover {
 
 @media (min-width: 641px) {
     /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
-    
-    footer {
-        background: blue;
-    }
-    
     header .logo_container {
         margin: 0 40%;
     }
@@ -581,9 +571,6 @@ input[type=submit]:hover {
     header .logo_container {
         margin: 0 45%;
     }
-     footer {
-        background: gray;
-    }
     div.leftSide {
         width: 33%;
         float: left;
@@ -652,14 +639,14 @@ input[type=submit]:hover {
         margin-bottom: 60px;
     }
 
+    div.rightSide.small {
+        width: 100%;
+    }
+
 }
 
 @media (min-width: 1025px) {
     /* big landscape tablets, laptops, and desktops */
-     footer {
-        background: pink;
-    }
-    
     main {
         width: 80%;
         margin: 0 10% 80px;
@@ -687,9 +674,6 @@ input[type=submit]:hover {
 
 @media (min-width: 1281px) {
     /* hi-res laptops and desktops */
-     footer {
-        background: red;
-    }
     
     main {
         width: 80%;
@@ -723,6 +707,15 @@ input[type=submit]:hover {
         float: left;
     }
 
+    div.rightSide.small {
+        width: 45%;
+        margin-right: 30px;
+    }
+
+
+    div.rightSide.small.second {
+        margin-top: 50px;
+    }
     .smallContent div.rightSide {
         width: 60%;
     }
@@ -738,6 +731,10 @@ input[type=submit]:hover {
 
     div.content img{
         width: 30%;
+    }
+
+    div.small div.content img{
+        width:45%
     }
 
 }
