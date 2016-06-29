@@ -375,8 +375,7 @@ div.card a{
 
 
 div.fullSide {
-    margin: 20px 0 10px 0;
-    padding-top: 20px;
+    padding: 10px 0 40px 0;
     border-top: 1px solid #a0a0a0;
 }
 div.fullSide img{
@@ -591,6 +590,7 @@ input[type=submit]:hover {
         width: 70%;
         float: left;
         margin: 0 20px 20px 0;
+        padding-top: 20px;
     }
     div.fourInRow {
         width: 48%;
@@ -618,7 +618,7 @@ input[type=submit]:hover {
         width: 60%;
         float: left;
     }
-    div.content p {
+    div.content p, div.small p {
         width: 60%;
     }
     nav ul li {
