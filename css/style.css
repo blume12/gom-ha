@@ -4,6 +4,11 @@
 }
 
 @font-face {
+    font-family: 'normal-font-italic';
+    src: url('fonts/Arvo-Italic.ttf') format('truetype');
+}
+
+@font-face {
     font-family: 'normal-font-bold';
     src: url('fonts/Arvo-Bold.ttf') format('truetype');
 }
@@ -225,6 +230,22 @@ p img {
     background-color: #c12021;
 }
 
+.pinkFont {
+    color: #c21250;
+}
+
+.orangeFont {
+    color: #db5e23;
+}
+
+.blueFont {
+    color: #7d4f97;
+}
+
+.redFont {
+    color: #c12021;
+}
+
 .clear {
     clear: both;
 }
@@ -235,6 +256,11 @@ main {
 
 main a {
     color: #8bc053;
+}
+
+p.introduction {
+   font-size: 1.1em;
+    font-family: normal-font-italic, serif;
 }
 
 div.news {
@@ -291,7 +317,7 @@ div.colorBox a {
     color: #fff;
     background-color: #188536;
     padding: 10px;
-    margin: 10px;
+    margin: 10px 0;
     position: absolute;
     bottom: -30px;
 }
@@ -494,11 +520,18 @@ input[type=submit]:hover {
     }
 
     h1 {
-        padding-left: 10%;
+        padding-left: 20%;
         text-align: left;
     }
 
-    h2, h3{
+    h2{
+        margin-top: 50px;
+    }
+    h3 {
+        margin-top: 20px;
+    }
+
+    h2.first {
         margin-top: 10px;
     }
 
@@ -525,6 +558,11 @@ input[type=submit]:hover {
         position: relative;
     }
 
+
+    div.news h2, div.news h3 {
+        margin-top: 10px;
+    }
+
    div.news.full {
        width: 100%;
        margin: 0;
@@ -540,13 +578,13 @@ input[type=submit]:hover {
         max-width: 350px;
         width: 45%;
         float: left;
-        border: 1px solid gray;
         box-shadow: 1px 1px 3px #888;
         margin: 10px; 
         position: relative;
     }
     div.card h2{
         top: 11%;
+        margin-top: 10px;
     }
 
     div.fullSide img{
@@ -580,10 +618,34 @@ input[type=submit]:hover {
         width: 60%;
         float: left;
     }
-
+    div.content p {
+        width: 60%;
+    }
     nav ul li {
         width: 120px;
         font-size: 1em;
+    }
+
+    body {
+        background: url("../images/background-image-2.png") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    main {
+        background-color: #fff;
+        padding: 20px;
+        margin-bottom: 30px !important;
+    }
+
+    footer {
+        margin-top: 0;
+    }
+
+    h1 {
+        margin-bottom: 0;
     }
 
     nav a {
@@ -656,6 +718,7 @@ input[type=submit]:hover {
         padding-left: 10%;
     }
 
+
     header img.headerImage {
         height: auto;
         width: 100%;
@@ -670,14 +733,22 @@ input[type=submit]:hover {
         width: 55%;
         float: left;
     }
+
+
+    div.news {
+        width: 32.7%;
+    }
+
+    div.news.fix {
+        margin-right: 0;
+    }
 }
 
 @media (min-width: 1281px) {
     /* hi-res laptops and desktops */
-    
     main {
-        width: 80%;
-        margin: 0 10% 80px;
+        width: 60%;
+        margin: 0 20% 80px;
     }
 
     main.smallContent {
@@ -690,7 +761,7 @@ input[type=submit]:hover {
     }
 
     h1 {
-        padding-left: 10%;
+        padding-left: 21%;
     }
 
     input:not([type=submit]) {
@@ -698,14 +769,15 @@ input[type=submit]:hover {
     }
 
     div.leftSide {
-        width: 27%;
+        width: 35%;
         float: left;
     }
 
     div.rightSide{
-        width: 70%;
+        width: 60%;
         float: left;
     }
+
 
     div.rightSide.small {
         width: 45%;
@@ -730,7 +802,7 @@ input[type=submit]:hover {
     }
 
     div.content img{
-        width: 30%;
+        width: 50%;
     }
 
     div.small div.content img{
