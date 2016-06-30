@@ -120,7 +120,7 @@ nav ul {
 }
 
 nav a, nav span, footer a {
-    color: white;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -193,7 +193,7 @@ h1 {
     margin: 0 0 30px 0;
     padding: 10px;
     background-color: #188536;
-    color: white;
+    color: #fff;
     font-size: 1.6em;
     font-family: headline-extra-font, serif;
 }
@@ -255,7 +255,7 @@ main {
 }
 
 main a {
-    color: #8bc053;
+    color: #db5e23;
 }
 
 p.introduction {
@@ -299,7 +299,7 @@ div.news h3 {
 
 div.news span.dateRange {
     float: right;
-    background-color: #1a6b3b;
+    background-color: #188536;
     padding: 5px 10px;
     top: -10px;
     left: 0;
@@ -340,6 +340,7 @@ div.leftSide img , div.rightSide img {
     width: 100%;         
     padding-bottom: 0;
     position: relative;
+    margin-bottom: 30px;
 }
 
 div.card img{
@@ -354,18 +355,22 @@ div.card .overlay{
     opacity: 0.5;
 }
 
-div.card h2{
+div.card span{
     position: absolute;
-    top: 10%;
-    color: white;    
-    width: 100%;
+    padding: 5px 10px 5px 20px;
+    color: white;
+    bottom: 35px;
+    right: 0;
+    background-color: #188536;
+    font-family: headline-extra-font, serif;
     text-align: center;
 }
 
-div.card h3{
-    padding-left: 10px;
-    margin: 0px 0px;
-    padding-bottom: 20px;
+div.card p{
+    margin: 0;
+    font-size: 1.2em;
+    padding: 10px 10px 15px 10px;
+    font-family: headline-font, sans-serif;
     color: #fff;     
 }
 
