@@ -320,6 +320,7 @@ div.colorBox a {
     margin: 10px 0;
     position: absolute;
     bottom: -30px;
+    text-decoration: none;
 }
 
 div.colorBox a:hover {
