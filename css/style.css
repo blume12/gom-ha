@@ -474,7 +474,6 @@ input[type=submit]:hover {
         text-align: right;
     }
 
-
     iframe.map {
         height: 350px;
     }
@@ -550,7 +549,7 @@ input[type=submit]:hover {
     }
 
     h1 {
-        padding-left: 20%;
+        padding-left: 11.5%;
         text-align: left;
     }
 
@@ -563,7 +562,7 @@ input[type=submit]:hover {
 
     div.leftSide {
         float: left;
-        padding: 0;
+        padding: 0 10px;
         width: 100%;
         margin-right: 30px;
     }
@@ -573,14 +572,13 @@ input[type=submit]:hover {
         margin-left: 30px;
     }
     div.rightSide {
-        padding: 0;
+        padding: 0 10px;
     }
 
     div.news {
-        width: 45%;
+        width: 47%;
         float: left;
         margin: 10px;
-        margin-left: 0;
         position: relative;
     }
 
@@ -599,10 +597,14 @@ input[type=submit]:hover {
     div.news div.parallel {
         margin-top: 30px;
     }
+
+    div.news.first  {
+        margin-top: 10px;
+    }
     
     .card{
         max-width: 350px;
-        width: 45%;
+        width: 47%;
         float: left;
         box-shadow: 1px 1px 3px #888;
         margin: 10px; 
@@ -611,6 +613,11 @@ input[type=submit]:hover {
     div.card h2{
         top: 11%;
         margin-top: 10px;
+    }
+
+    div.fullSide.left {
+        margin: 40px 0;
+
     }
 
     div.fullSide img{
@@ -623,7 +630,7 @@ input[type=submit]:hover {
         width: 48%;
         float: left;
         margin: 0;
-        margin-left: 10px;
+        padding:  auto 15px;
         height: 180px;
     }
     div.fullSideTextBox{
@@ -673,6 +680,7 @@ input[type=submit]:hover {
 
     h1 {
         margin-bottom: 0;
+        padding-left: 13%
     }
 
     nav a {
@@ -687,8 +695,17 @@ input[type=submit]:hover {
         height: 150px;
     }
 
+    div.card {
+        max-width: 400px;
+        width: 47%;
+    }
+
     div.news {
-        width: 29%;
+        width: 30.5%;
+    }
+
+    p.introduction {
+        width: 100% !important;
     }
 
     div.news.full img{
