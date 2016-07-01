@@ -599,7 +599,6 @@ input[type=submit]:hover {
 
     div.leftSide.right {
         margin-right: 0;
-        margin-left: 30px;
     }
     div.rightSide {
         padding: 0 10px;
@@ -674,10 +673,9 @@ input[type=submit]:hover {
         margin: 0 45%;
     }
     div.leftSide {
-        width: 30%;
+        width: 34.5%;
         float: left;
     }
-
 
     div.rightSide {
         float: left;
@@ -851,8 +849,12 @@ input[type=submit]:hover {
     }
 
     div.leftSide {
-        width: 29%;
+        width: 37%;
         float: left;
+    }
+
+    div.leftSide.right {
+        margin-left: 10px;
     }
 
 
