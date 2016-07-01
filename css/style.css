@@ -221,6 +221,11 @@ h3 {
     margin: 15px 0 2px 0;
 }
 
+div.rightSide h2.first {
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
 h4 {
     margin: 15px 0 2px 0;
 }
@@ -592,6 +597,7 @@ input[type=submit]:hover {
     }
     div.rightSide {
         padding: 0 10px;
+        clear:both;
     }
 
     div.news {
@@ -667,9 +673,11 @@ input[type=submit]:hover {
         float: left;
     }
 
-    div.rightSide{
-        width: 56%;
+
+    div.rightSide {
         float: left;
+        width: 56%;
+        clear: none;
     }
     div.content p, div.small p {
         width: 60%;
