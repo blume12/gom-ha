@@ -316,6 +316,7 @@ div.news img {
 
 div.news h2 {
     margin-bottom: 0;
+    padding-left: 0;
 }
 
 div.news.first{
@@ -332,6 +333,7 @@ div.news div.offer{
 div.news h3 {
     margin-bottom: 5px;
     font-size: 1.3em;
+    padding-left: 0;
 }
 
 div.news span.dateRange {
@@ -344,6 +346,10 @@ div.news span.dateRange {
     position: absolute;
     font-family:headline-extra-font, sans-serif;
 
+}
+
+div.news p {
+    padding: 10px 0;
 }
 
 div.colorBox {
