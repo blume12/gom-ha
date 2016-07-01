@@ -265,10 +265,12 @@ main a {
     color: #db5e23;
 }
 
-p.introduction {
+
+div.content p.introduction, p.introduction {
    font-size: 1.1em;
     font-family: normal-font-italic, serif;
     padding-left: 10px;
+    width: 97%;
 }
 
 div.news {
@@ -623,7 +625,7 @@ input[type=submit]:hover {
     div.fullSide img{
         width: 100%;
         float: left;
-        margin: 0 20px 20px 0;
+        margin: 0 20px 0px 0;
         padding-top: 20px;
     }
     div.fourInRow {
@@ -649,7 +651,7 @@ input[type=submit]:hover {
     }
 
     div.rightSide{
-        width: 60%;
+        width: 56%;
         float: left;
     }
     div.content p, div.small p {
@@ -687,7 +689,7 @@ input[type=submit]:hover {
         width: 120px;
     }
     div.leftSide img , div.rightSide img{
-        width: auto;
+        width: 98%;
         height: 100%;
     }
 
@@ -702,10 +704,6 @@ input[type=submit]:hover {
 
     div.news {
         width: 30.5%;
-    }
-
-    p.introduction {
-        width: 100% !important;
     }
 
     div.news.full img{
@@ -758,7 +756,7 @@ input[type=submit]:hover {
     }
 
     h1 {
-        padding-left: 10%;
+        padding-left: 12.5%;
     }
 
 
@@ -785,9 +783,14 @@ input[type=submit]:hover {
     div.news.fix {
         margin-right: 0;
     }
-        div.fullSide img{
+    div.fullSide img{
         float: right;
     }
+    div.quellen img{
+        float: left;
+        width: 47%;
+    }
+    
 }
 
 @media (min-width: 1281px) {
@@ -807,7 +810,7 @@ input[type=submit]:hover {
     }
 
     h1 {
-        padding-left: 21%;
+        padding-left: 21.5%;
     }
 
     input:not([type=submit]) {
@@ -816,11 +819,6 @@ input[type=submit]:hover {
 
     div.leftSide {
         width: 35%;
-        float: left;
-    }
-
-    div.rightSide{
-        width: 60%;
         float: left;
     }
 
@@ -853,6 +851,9 @@ input[type=submit]:hover {
 
     div.small div.content img{
         width:45%
+    }
+     div.content p.introduction, p.introduction {
+        width: 80%;
     }
 
 }
