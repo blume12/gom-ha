@@ -166,7 +166,7 @@ nav .secondMenu li {
 
 main {
     font-size: 1em;
-    margin: 0px;
+    margin: 0;
 }
 
 /* Footer */
@@ -511,6 +511,10 @@ input[type=submit]:hover {
     input:not([type=submit]) {
         width: 65%;
     }
+
+    div.fourInRow {
+        padding: 0 10px;
+    }
 }
 
 @media (min-width: 641px) {
@@ -656,7 +660,7 @@ input[type=submit]:hover {
         padding-top: 20px;
     }
     div.fourInRow {
-        width: 48%;
+        width: 45%;
         float: left;
         margin: 0;
         padding:  auto 15px;
@@ -872,8 +876,9 @@ input[type=submit]:hover {
     }
 
     div.fourInRow {
-        width: 24%;
-        height: auto;
+        height: 220px;
+        width: 22%;
+        word-wrap: break-word;
     }
 
     div.content img{
