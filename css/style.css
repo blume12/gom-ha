@@ -628,8 +628,7 @@ input[type=submit]:hover {
     }
     
     .card{
-        max-width: 350px;
-        width: 47%;
+        width: 46%;
         float: left;
         box-shadow: 1px 1px 3px #888;
         margin: 10px; 
@@ -723,8 +722,7 @@ input[type=submit]:hover {
     }
 
     div.card {
-        max-width: 400px;
-        width: 47%;
+        width: 47.2%;
     }
 
     div.news {
@@ -865,10 +863,6 @@ input[type=submit]:hover {
         width: 24%;
         height: auto;
     }
-    .card{
-        max-width: 350px;
-        width: 22%;
-    }
 
     div.content img{
         width: 50%;
@@ -880,5 +874,7 @@ input[type=submit]:hover {
      div.content p.introduction, p.introduction {
         width: 80%;
     }
-
+    div.card {
+        width: 22.4%;
+    }
 }
