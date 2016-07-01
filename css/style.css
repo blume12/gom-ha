@@ -647,7 +647,7 @@ input[type=submit]:hover {
     div.fullSide img{
         width: 100%;
         float: left;
-        margin: 0 20px 0px 0;
+        margin: 0;
         padding-top: 20px;
     }
     div.fourInRow {
@@ -810,7 +810,8 @@ input[type=submit]:hover {
     }
     div.quellen img{
         float: left;
-        width: 47%;
+        padding: 0 10px 10px 0;
+        width: 46%;
     }
     
 }
