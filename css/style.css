@@ -683,7 +683,7 @@ input[type=submit]:hover {
 
     div.rightSide {
         float: left;
-        width: 56%;
+        width: 53%;
         clear: none;
     }
     div.content p, div.small p {
@@ -776,6 +776,9 @@ input[type=submit]:hover {
 
     div.rightSide.small {
         width: 100%;
+    }
+    div.rightSide h2.first{
+        margin-top: 0;
     }
 }
 
