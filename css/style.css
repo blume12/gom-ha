@@ -202,19 +202,31 @@ h2 {
     color: #c21250;
     margin-top: 20px;
     padding-top: 20px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
     padding-left: 10px;
     text-align: left;
     font-size: 1.5em;
     font-family: headline-black-fonts, sans-serif;
 }
 
-h2.first {
+h2.first , h3.first{
     margin-top: 10px;
     padding-top: 10px;
 }
 
 h3 {
     color: #db5e23;
+    padding:15px 0 2px 0;
+    margin: 15px 0 2px 0;
+}
+
+h4 {
+    margin: 15px 0 2px 0;
+}
+
+p {
+    margin: 5px 0;
 }
 
 p img {
@@ -404,7 +416,7 @@ div.fullSide p{
 }
 
 div.fullSide {
-    padding: 10px 0 10px 0;
+    padding: 0 0 25px 0;
     border-top: 1px solid #a0a0a0;
 }
 div.fullSide img{
@@ -412,7 +424,7 @@ div.fullSide img{
 }
 
 div.fourInRow, div.fullSide {
-    margin: 15px;
+    margin: 0 15px 15px 15px;
 }
 
 iframe.map {
@@ -559,7 +571,7 @@ input[type=submit]:hover {
         margin-top: 50px;
     }
     h3 {
-        margin-top: 20px;
+        margin-top: 10px;
     }
 
     div.leftSide {
