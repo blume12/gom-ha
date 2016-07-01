@@ -283,6 +283,11 @@ div.content p.introduction, p.introduction {
     font-family: normal-font-italic, serif;
     padding-left: 10px;
     width: 97%;
+    padding-bottom: 15px;
+}
+
+div.rightSide p.introduction {
+    padding-left: 0;
 }
 
 div.news {
