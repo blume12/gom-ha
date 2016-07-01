@@ -601,7 +601,7 @@ input[type=submit]:hover {
     }
 
     div.news {
-        width: 47%;
+        width: 46%;
         float: left;
         margin: 10px;
         position: relative;
@@ -647,7 +647,7 @@ input[type=submit]:hover {
     div.fullSide img{
         width: 100%;
         float: left;
-        margin: 0 20px 0px 0;
+        margin: 0;
         padding-top: 20px;
     }
     div.fourInRow {
@@ -668,7 +668,7 @@ input[type=submit]:hover {
         margin: 0 45%;
     }
     div.leftSide {
-        width: 33%;
+        width: 30%;
         float: left;
     }
 
@@ -782,7 +782,6 @@ input[type=submit]:hover {
         padding-left: 12.5%;
     }
 
-
     header img.headerImage {
         height: auto;
         width: 100%;
@@ -800,7 +799,7 @@ input[type=submit]:hover {
 
 
     div.news {
-        width: 32.7%;
+        width: 31%;
     }
 
     div.news.fix {
@@ -811,7 +810,8 @@ input[type=submit]:hover {
     }
     div.quellen img{
         float: left;
-        width: 47%;
+        padding: 0 10px 10px 0;
+        width: 46%;
     }
     
 }
@@ -821,6 +821,10 @@ input[type=submit]:hover {
     main {
         width: 60%;
         margin: 0 20% 80px;
+    }
+    
+    div.news {
+        width: 31%;
     }
 
     main.smallContent {
@@ -841,7 +845,7 @@ input[type=submit]:hover {
     }
 
     div.leftSide {
-        width: 35%;
+        width: 29%;
         float: left;
     }
 
