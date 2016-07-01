@@ -378,7 +378,9 @@ div.card p{
 div.card a{
     text-decoration: none;
 }
-
+div.fullSide p{
+    max-width:700px;
+}
 
 div.fullSide {
     padding: 10px 0 40px 0;
@@ -593,7 +595,7 @@ input[type=submit]:hover {
     }
 
     div.fullSide img{
-        width: 70%;
+        width: 100%;
         float: left;
         margin: 0 20px 20px 0;
         padding-top: 20px;
@@ -710,7 +712,6 @@ input[type=submit]:hover {
     div.rightSide.small {
         width: 100%;
     }
-
 }
 
 @media (min-width: 1025px) {
@@ -747,6 +748,9 @@ input[type=submit]:hover {
 
     div.news.fix {
         margin-right: 0;
+    }
+        div.fullSide img{
+        float: right;
     }
 }
 
