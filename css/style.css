@@ -200,10 +200,17 @@ h1 {
 
 h2 {
     color: #c21250;
-    margin-top: 10px;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
     text-align: left;
     font-size: 1.5em;
     font-family: headline-black-fonts, sans-serif;
+}
+
+h2.first {
+    margin-top: 10px;
+    padding-top: 10px;
 }
 
 h3 {
@@ -261,6 +268,7 @@ main a {
 p.introduction {
    font-size: 1.1em;
     font-family: normal-font-italic, serif;
+    padding-left: 10px;
 }
 
 div.news {
@@ -284,6 +292,11 @@ div.news img {
 
 div.news h2 {
     margin-bottom: 0;
+}
+
+div.news.first{
+    padding-top: 0;
+    margin-top: 0;
 }
 
 div.news div.offer{
@@ -327,8 +340,15 @@ div.colorBox a:hover {
     background-color: #1a6b3b;
 }
 
-div.leftSide, div.rightSide {
+div.leftSide, div.rightSide{
     padding:  0 15px;
+}
+ div.fullSide {
+    padding-left: 10px;
+}
+
+div.leftSide h2, div.rightSide h2, div.fourInRow h2, div.fullSide h2 {
+    padding-left: 0;
 }
 
 div.leftSide img , div.rightSide img {
@@ -338,10 +358,9 @@ div.leftSide img , div.rightSide img {
 /* Wochenmarkt*/
 
 .card{
-    width: 100%;         
     padding-bottom: 0;
     position: relative;
-    margin-bottom: 30px;
+    margin: 0 10px 30px 10px;
 }
 
 div.card img{
@@ -383,7 +402,7 @@ div.fullSide p{
 }
 
 div.fullSide {
-    padding: 10px 0 40px 0;
+    padding: 10px 0 10px 0;
     border-top: 1px solid #a0a0a0;
 }
 div.fullSide img{
@@ -391,7 +410,7 @@ div.fullSide img{
 }
 
 div.fourInRow, div.fullSide {
-    margin: 10px;
+    margin: 15px;
 }
 
 iframe.map {
@@ -438,6 +457,10 @@ input[type=submit]:hover {
     header .logo_container {
 
         margin: 0 33%;
+    }
+
+    h1 {
+        padding-left: 10px;
     }
 }
 
@@ -536,10 +559,6 @@ input[type=submit]:hover {
     }
     h3 {
         margin-top: 20px;
-    }
-
-    h2.first {
-        margin-top: 10px;
     }
 
     div.leftSide {
